@@ -27,19 +27,31 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ScholarshipsSt", "Scholarsh
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{A08AAF24-74F7-46B4-A966-E2C978C396BD}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB-DScholarship", "DB-DScholarship\DB-DScholarship.sqlproj", "{D170F570-ABB6-4941-84BD-46785495803C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{17D6222B-2E90-47A9-A630-AED46CC289CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{17D6222B-2E90-47A9-A630-AED46CC289CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D6222B-2E90-47A9-A630-AED46CC289CF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D6222B-2E90-47A9-A630-AED46CC289CF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D170F570-ABB6-4941-84BD-46785495803C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D170F570-ABB6-4941-84BD-46785495803C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D170F570-ABB6-4941-84BD-46785495803C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D170F570-ABB6-4941-84BD-46785495803C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D170F570-ABB6-4941-84BD-46785495803C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D170F570-ABB6-4941-84BD-46785495803C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{17D6222B-2E90-47A9-A630-AED46CC289CF} = {A08AAF24-74F7-46B4-A966-E2C978C396BD}
+		{D170F570-ABB6-4941-84BD-46785495803C} = {A08AAF24-74F7-46B4-A966-E2C978C396BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EFE39AB-8D0B-4A79-9282-83AB65941252}
